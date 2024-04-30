@@ -2,6 +2,7 @@ import "./App.css";
 import { MuiTypography } from "./components/MuiTypography";
 import { MuiButton } from "./components/MuiButton";
 import { MuiTextField } from "./components/MuiTextField";
+import { MuiSelector } from "./components/MuiSelector";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
@@ -17,6 +18,8 @@ function App() {
       <MuiButton />
       <div style={{ marginTop: "20px" }} />
       <MuiTextField />
+      <div style={{ marginTop: "20px" }} />
+<MuiSelector/>
     </div>
     </ThemeProvider>
     </div>
